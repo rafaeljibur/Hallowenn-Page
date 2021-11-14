@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fuentes, hoja de estulo y javascript -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Griffy&display=swap" rel="stylesheet">
+    <!-- JavaScript -->
+    <script src="./js/Halloween.js"></script>
+
+    <link rel="shortcut icon" href="./img/pumpkin.png" type="image/x-icon">
+    
+    <title>Scary Halloween Party</title>
+    <link rel="stylesheet" href="style/estilo.css">
+</head>
+<body> 
+    <!-- para cancion de fondo-->
+    <!-- Este ejercicio no es responsive, solo para PC -->
+    <div class="container">
+
+        <p id="p1">Scary Halloween Party !</p>
+        <p id="p2">Don't touch this ! ➡</p>
+    
+        <div id="cartahalloween">
+            <h1 id="p1h" >🎃 Halloween party invitation 🎃</h1>
+            <div class="pch">
+                <p>Hora: 12:00 PM</p>
+                <p>Sitio: Casa encantada de la calle Italia nº 24
+                </p>
+                <p>¡Obligatorio ir disfrazado!</p>
+            </div>
+            <img id="img1" src="./img/dancing-squeleton.gif">
+            <img id="img2" src="./img/casa-encantada.jpg">
+            <div id="boton" onclick="show ('confeti')"><p>Accept Invitation</p></div>
+        </div>
+
+        <div id="esqueleto" onclick="mostrar('scream'); sonar('grito')">
+            <!-- Esto es para marcar la zona de la página que se activa -->
+        </div>
+
+        <img id="bat" src="img/murcielago.gif">
+        <img id="exorcista" src="./img/excorsista.gif">
+        <img id="confeti" src="./img/confeti.gif">
+        <img id="invitation" src="./img/My Invitation.jpeg">
+
+
+        <audio id="grito" src="./sounds/grito.wav"></audio>
+        
+        <div id="music-squeleton">
+
+            <img id="esqueletotaza" src="./img/esqueleto-taza.gif" onclick="musicon('bgsound')" ondblclick="musicoff('bgsound')">
+            <img id="flecha" src="./img/flecha.png">
+            <p id="p3">Click this to activate background music <br> and doubleclick to desactivate </p>
+            
+            <audio id="bgsound" src="./sounds/lullaby.mp3" ></audio>
+        
+        </div> 
+
+    </div>
+</body>
+</html>

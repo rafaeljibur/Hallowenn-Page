@@ -1,0 +1,189 @@
+/************** HOJA DE ESTILO DEL EJERCICIO DE HALLOWEEN ****************/
+/************************ 2ª SMR . CURSO 2021/2022  **********************/
+/**************** AUTOR: RAFAEL JIMÉNEZ BURGOS **************************/
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background-color: black;
+    font-family: 'Creepster', cursive;
+}
+
+.container {
+    position: relative; /* Podrá moverse de sitio el container*/
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/1280x768.jpg);
+    background-position: center;
+    background-size: cover;
+    color: red;
+}
+
+#p1 {
+    font-size: 4em;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+}
+
+#p2 {
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 4px 4px 5px black;
+    position: absolute;
+    top: 390px;
+    left: 790px;
+}
+
+#p3 {
+    font-size: 1.2em;
+    text-shadow: 4px 4px 1px black;
+    position: absolute;
+    right: 10px;
+    top: 420px;
+    margin-right: 5px;
+}
+
+#esqueleto {
+    position: absolute;
+    cursor: pointer;
+    margin: 100px auto;
+    width: 120px;
+    height: 160px;
+    right: 340px;
+    top: 240px;
+}
+
+#ghost {
+    position: absolute;
+    top: 90px;
+    bottom: 0;
+}
+
+#bat {
+    width: 320px;
+    position: absolute;
+    right: 0;
+    visibility: hidden;
+}
+
+#esqueletotaza {
+    position: absolute;
+    right: 25px;
+    bottom: 0;
+    height: 250px;
+    cursor: pointer;
+    /* z-index: 1; */
+}
+
+#flecha {
+    position: absolute;
+    height: 40px;
+    transform: rotate(40deg);
+    right: 120px;
+    top: 480px;
+    /* z-index: 1; */
+}
+
+#cartahalloween {
+    position: absolute;
+    width: 400px;
+    height: 700px;
+    border-radius: 10px;
+    top: 20px;
+    left: 25px;
+    background-color: lightslategray;
+    border: 6px dashed orange;
+    text-align: center;
+}
+
+#p1h {
+    font-size: 1.6em;
+    margin: 6px;
+    padding-bottom: 15px;
+    font-family: 'Griffy', cursive;
+    font-weight: bold;
+    color: black;
+    text-shadow: 7px 7px 8px black;
+}
+
+.pch {
+    margin: 10px;
+    text-align: left;
+    border-radius: 40px 5px 40px 5px;
+    padding: 10px;
+    background-color: #0E2128;
+    height: 60%;
+}
+
+.pch p {
+    font-size: 1.8em;
+    margin-top: 50px;
+
+}
+
+#cartahalloween #img1 {
+    position: absolute;
+    height: 100px;
+    bottom: 0px;
+    left: 0;
+}
+
+#cartahalloween #img2 {
+    position: absolute;
+    height: 180px;
+    bottom: 0px;
+    right: 0;
+}
+
+
+#boton {
+    position: absolute;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: lime;
+    left: 100px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+#boton:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 5px red;
+
+}
+
+#boton p {
+    font-size: 1.1em;
+    text-align: center;
+    padding: 10px;
+}
+
+#confeti {
+    bottom: 5px;
+    left: -90px;
+    position: absolute;
+    height: 700px;
+    visibility: hidden;
+}
+
+#exorcista {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    z-index: 10;
+}
+
+#invitation {
+    position: absolute;
+    height: 30%;
+    right: 0;
+    top: 0;
+    margin: 10px;
+    cursor: pointer;
+}
